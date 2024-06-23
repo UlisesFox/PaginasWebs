@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Iconos';
+    src: url('./Iconos/MenuButton.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  [class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "Iconos";
+    font-style: normal;
+    font-weight: normal;
+  
+    display: inline-block;
+    width: 1em;
+    margin-right: 10px;
+    text-align: center;
+
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: xxx-large;
+
+  }
+
+  .contenedor_logo{
+    width: 30px;
+    height: 30px;
+  }
+
+  .contenedor_logo img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .icon-menu:before { content: '\f0c9'; }

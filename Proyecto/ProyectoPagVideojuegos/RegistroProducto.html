@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="RegistroProducto.css">
+    <link rel="icon" href="./Imagenes/Logo.png" type="image/x-con">
+    <title> Registro.com </title>
+</head>
+
+<body>
+    
+    <div class="login-box">
+        <h1> Registro </h1>
+        <form action="Productos.php" method="POST">
+        
+                <label for="nombreP">Nombre</label>
+                <input type="text" name="nombreP" id="nombreP" required="obligatorio" placeholder="Escribe tu nombre">
+
+                <label for="precio">Precio</label>
+                <input type="text" name="precio" id="precio" required="obligatorio" placeholder="Escribe el precio">
+
+                <label for="fecha">Fecha</label>
+                <input type="text" name="fecha" id="fecha" required="obligatorio" placeholder="Escribe la fecha">
+
+                <label for="descripccion">Descripccion</label>
+                <input type="text" name="descripccion" id="descripccion" required="obligatorio" placeholder="Escribe descripccion">
+
+                <label for="imagen">Direccion de imagen</label>
+                <input type="text" name="imagen" id="imagen" required="obligatorio" placeholder="Escribe la direccion de la imagen">                
+
+                <div class="contenedor">
+                    <div class="column">
+                        <label for="estado">Estado</label>
+                        <select name="estado" id="estado">
+                            <option value="">Selecciona el estado</option>
+                            <option value="Disponible">Disponible</option>
+                            <option value="Agotado">Agotado</option>
+                            <option value="Reponiendo">Reponiendo</option>
+                        </select>
+                    </div>
+                </div>
+
+                <input type="submit" name="registra" value="Registrar">
+
+                <a href="Admin.html"> ¿Regresar al menu de Admin? </a><br>
+
+            </form>
+        </div>
+    </body>
+</html>

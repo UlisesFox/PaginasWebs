@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Login.css">
+        <link rel="stylesheet" href="background.css">
+        <link rel="icon" href="./Imagenes/Logo.png" type="image/x-con">
+        <title> Login.com </title>
+    </head>
+
+<body>
+    
+    <section id="superior">
+        <img src="Imagenes/BanerLog.jpg" alt="">
+    </section>
+
+    <div class="login-box">
+        <img class="ava" src="Imagenes/logousuario.jpg" alt="Logot">
+        <h1> Inicia sesión </h1>
+        <form action="./Login.php" method="post">
+
+            <label for="correo">Correo</label>
+            <input type="text" name="correo" id="correo" required="obligatorio" placeholder="Ingrese su correo">
+
+            <label for="contrasenia">Contraseña</label>
+            <input type="password" name="contrasenia" id="contrasenia" required="obligatorio" placeholder="Ingrese contraseña">
+
+            <input type="submit" value="Ingresar">
+
+            <a href="#"> Perdiste tu contraseña.</a><br>
+            <a href="Registro.html"> ¿No tienes cuenta? Crea una.</a>
+        </form>
+    </div>
+</body>
+</html>

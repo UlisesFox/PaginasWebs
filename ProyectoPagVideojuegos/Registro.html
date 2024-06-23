@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Registro.css">
+    <link rel="stylesheet" href="background.css">
+    <link rel="icon" href="./Imagenes/Logo.png" type="image/x-con">
+    <title> Registro.com </title>
+</head>
+
+<body>
+
+    <section id="superior">
+        <img src="Imagenes/BanerReg.jpg" alt="">
+    </section>
+
+    <div class="login-box">
+        <img class="ava" src="Imagenes/logousuario.jpg" alt="Logot">
+        <h1> Registro </h1>
+        <form action="Registro.php" method="POST">
+        
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+
+                <label for="correo">Correo</label>
+                <input type="text" name="correo" id="correo" required="obligatorio" placeholder="Escribe tu correo">
+
+                <label for="telefono">Teléfono</label>
+                <input type="text" name="telefono" id="telefono" required="obligatorio" placeholder="Escribe tu telefono">
+
+                <label for="contrasenia">Contraseña</label>
+                <input type="password" name="contrasenia" id="contrasenia" required="obligatorio" placeholder="Escribe tu contraseña">
+        
+                <input type="submit" name="registra" value="Registrar">
+
+                <a href="index.php"> Deseas regresar al menu </a><br>
+                <a href="Login.html"> ¿Ya tienes cuenta? Inicia sesión.</a>
+
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagina{
+    width: 100%;
+}
+
+.pagina img{
+    width: 40px;
+    margin: 0px;
+}
+
+header{
+    color: orange;
+    background-color:black;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+h1{
+    float: left;
+    font-size: xxx-large;
+}
+
+header .pagina{
+    display: table;
+}
+
+header .pagina .contenedor_logo{
+    display: flex;
+}
+
+#menubarra{
+    display: none;
+}
+
+header label{
+    float: right;
+    font-size: 30px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.barra{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+    transform: translateY(-110%);
+}
+
+.barra a{
+    text-decoration: none;
+    display: block;
+    color: orange;
+    height: 45px;
+    padding: 10px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.barra a:hover{
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#menubarra:checked ~ .barra{
+    transform: translateY(1%);
+}
+
+@media (min-width:1024px){
+    .barra{
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateY(0%);
+        float: right;
+        display: flex;
+    }
+
+    .barra a{
+        border: none;
+        font-size: xx-large;
+    }
+
+    header label{
+        display: none;
+    }
+}

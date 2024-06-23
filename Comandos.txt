@@ -1,0 +1,27 @@
+GitBash
+
+git add . (todo en la carpeta)
+
+git add "nombre de archivo" (subir solo ese archivo)
+
+git commit -m "asdasdsa" (comentar cambios)
+
+git pull (traer archivos del servidor)
+
+git push (mandar todo al Githud)
+
+git status (ver el estado de la carpeta)
+
+git diff (ver los cambios)
+
+git push origin main
+
+git checkout -b "nombre de la rama" (con -b es para crear ramas y sin este para moverse entre ramas)
+
+git merge nombre de la rama (unir la rama con la principal [debes estar en la principal "main"])
+
+git log (ver los cambios)
+
+git log --all --graph (ver los cambios de manera mas grafica)
+
+git log --all --graph --decorate --oneline (ver solo una linea de los cambios)

@@ -1,0 +1,15 @@
+body{
+    background-image: url(../images/madera.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contenedor__login-register{
+    width: 100%;
+    padding: 10px;
+    background: rgb(194, 155, 97);
+    position: relative;
+    border-radius: 20px;
+}
